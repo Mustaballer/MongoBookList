@@ -1,8 +1,85 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #5A8540;
+  background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+    color: white;
+}
+
+section {
+  float: left;
+  background: #bdc3c7;
+  padding: 10px;
+  margin: 30px;
+  width: 300px;
+  box-shadow: 3px 3px 1px #34495e;
+  min-height: 400px;
+}
+
+section:first-of-type {
+  margin-left: 0;
+}
+
+section:last-of-type {
+  margin-right: 0;
+}
+
+section h3 {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.insert {
+  background: #CEFAB6;
+}
+
+.get {
+  background: #F7FAF5;
+}
+
+.update {
+  background: #E1EDFF;
+}
+
+.delete {
+  background: #FF9393;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  padding: 2px 0;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  margin-top: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px #34495e;
+  border-radius: 0;
+  color: green;
+  background: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: lightgreen;
+}
+
+.item {
+  margin: 10px 0;
+  padding: 5px;
+  background: #EEDACC;
+  border: 1px solid black;
 }
