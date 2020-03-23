@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
+require('dotenv').config()
 var mongoose = require('mongoose');
 // mongoose.connect('localhost:27017/test');
-mongoose.connect("mongodb://localhost:27017/test", { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/test', { useUnifiedTopology: true, useNewUrlParser: true });
 var Schema = mongoose.Schema;
 
 var userDataSchema = new Schema({
