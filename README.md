@@ -5,6 +5,8 @@ a public register where anyone can contribute to the database.
 
 Click the link here to see the web app: https://mongobooklist.herokuapp.com/
 
+![MongoBookList Snap](https://i.snipboard.io/SmNqaz.jpg)
+
 ## Built With
 
 * [Node.js](https://nodejs.org/en/) - JS runtime environment
